@@ -1,6 +1,6 @@
 # Parrot PwnBox Terminal Configuration
 
-![htpbpwnboxterminalthem.png]
+![Parrot PwnBox](https://i.imgur.com/JTJogTF.png)
 
 Welcome to the Parrot PwnBox Terminal Configuration repository! This repository all the configuration files and terminal preferences to that you usually see on the hack the box pwnbox machines. I exported the preferences from one of the virtual machines I have spawned. I am putting it here on github mainly for myslef, but for anyone else who wants to use it.
 
