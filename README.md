@@ -13,7 +13,7 @@ Welcome to the Parrot PwnBox Terminal Configuration repository! This repository 
 1. **Clone the Repository:** Start by cloning this repository to your local machine:
 
    ```bash
-   git clone https://github.com/your-username/parrot-pwnbox-terminal-config.git
+   git clone https://github.com/bojtalepenye/parrot-pwnbox-terminal-config
    ```
 
 2. **Navigate to the Directory:** Move into the cloned directory:
