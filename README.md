@@ -2,7 +2,7 @@
 
 ![Parrot PwnBox](https://i.imgur.com/JTJogTF.png)
 
-Welcome to the Parrot PwnBox Terminal Configuration repository! This repository all the configuration files and terminal preferences to that you usually see on the hack the box pwnbox machines. I exported the preferences from one of the virtual machines I have spawned. I am putting it here on github mainly for myslef, but for anyone else who wants to use it.
+Welcome to the Parrot PwnBox Terminal Configuration repository! This is the repository that contains all the configuration files and terminal preferences to that you usually see on the hack the box pwnbox machines. I exported the preferences from one of the virtual machines I have spawned. I am putting it here on github mainly for myslef, but for anyone else who wants to use it.
 
 ## Table of Contents
 - [Getting Started](#getting-started)
@@ -23,14 +23,19 @@ Welcome to the Parrot PwnBox Terminal Configuration repository! This repository 
    ```
 
 ## Configuration
-3. **Copy Configuration Files:** Depending on your preference, copy the provided configuration files to your home directory:
-
-   ```bash
-   cp .zshrc ~/.zshrc
-   cp .bashrc ~/.bashrc
-   cp .profile ~/.profile
+3. **Move Configuration Files:** Depending on your preference, move the provided configuration files to your home directory:
+   First before moving the config files to your home directory you have got to back them up.
+      ```bash
+   mv ~/.zshrc ~/.zshrc.backup
+   mv ~/.bashrc ~/.bashrc.backup
+   mv ~/.profile ~/.profile.backup
    ```
-   Make sure that you back up your current config files.
+   Now you can move them.
+   ```bash
+   mv .zshrc ~/.zshrc
+   mv .bashrc ~/.bashrc
+   mv .profile ~/.profile
+   ```
    
 5. **Terminal Preferences:** Follow the instructions to apply the provided terminal preferences (colors, etc.).
 ## Terminal Preferences
